@@ -51,6 +51,7 @@ BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += service_locator.enable=1 
 BOARD_KERNEL_CMDLINE += swiotlb=2048 
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive 
+BOARD_KERNEL_CMDLINE += ramoops.mem_address=0x64000000 ramoops.mem_size=0x100000 ramoops.console_size=0x4000
 
 BOARD_HEADER_VERSION       := 2
 BOARD_KERNEL_PAGESIZE      := 4096
