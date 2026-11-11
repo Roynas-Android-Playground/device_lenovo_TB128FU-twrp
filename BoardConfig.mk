@@ -52,6 +52,7 @@ BOARD_KERNEL_CMDLINE += service_locator.enable=1
 BOARD_KERNEL_CMDLINE += swiotlb=2048 
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive 
 BOARD_KERNEL_CMDLINE += ramoops.mem_address=0x64000000 ramoops.mem_size=0x100000 ramoops.console_size=0x4000
+BOARD_KERNEL_CMDLINE += earlycon=msm_geni_serial,0x4a90000 console=ttyMSM0,115200n8
 
 BOARD_HEADER_VERSION       := 2
 BOARD_KERNEL_PAGESIZE      := 4096
