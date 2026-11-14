@@ -51,7 +51,7 @@ BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += service_locator.enable=1 
 BOARD_KERNEL_CMDLINE += swiotlb=2048 
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive 
-BOARD_KERNEL_CMDLINE += ramoops.mem_address=0x64000000 ramoops.mem_size=0x100000 ramoops.console_size=0x4000
+BOARD_KERNEL_CMDLINE += msm_poweroff.download_mode=0
 BOARD_KERNEL_CMDLINE += earlycon=msm_geni_serial,0x4a90000 console=ttyMSM0,115200n8
 
 BOARD_HEADER_VERSION       := 2
@@ -140,7 +140,7 @@ BOARD_USES_QCOM_FBE_DECRYPTION := true
 
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
-PLATFORM_VERSION := 16.1.0
+PLATFORM_VERSION := 99.87.36
 PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 
 #AVB
